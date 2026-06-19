@@ -1,0 +1,26 @@
+# Overleaf git clone — tracked separately via Overleaf remote, not GitHub
+overleaf/
+
+# Raw survey data — too large for GitHub (140 MB) and redistributable via download.sh
+data/results.csv
+
+# API tokens — never commit secrets
+token.txt
+
+# Zip-extraction artefact
+__02-toy-paper/
+
+# macOS metadata
+.DS_Store
+**/.DS_Store
+
+# Python / R artefacts
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+.Rproj.user/
+
+# Generated figures (reproducible from analysis scripts)
+paper/figures/*
+!paper/figures/.gitkeep
