@@ -21,6 +21,9 @@ __pycache__/
 .RData
 .Rproj.user/
 
-# Generated figures (reproducible from analysis scripts)
-paper/figures/*
-!paper/figures/.gitkeep
+# Large intermediate build artefacts (figures are committed as outputs)
+paper/*.aux
+paper/*.log
+paper/*.bbl
+paper/*.blg
+paper/*.out
